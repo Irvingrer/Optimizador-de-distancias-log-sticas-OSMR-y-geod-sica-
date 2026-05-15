@@ -1,0 +1,2 @@
+# Optimizador-de-distancias-log-sticas-OSMR-y-geod-sica-
+Este repositorio compila una suite de herramientas y scripts en Python desarrollados para la resolución de problemas complejos de logística, ruteo y optimización de cadenas de suministro. El núcleo del proyecto combina el cálculo de distancias geométricas tradicionales con el ruteo real sobre infraestructura vial mediante OpenStreetMap (OSM).
