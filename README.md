@@ -1,5 +1,6 @@
 # Optimizador-de-distancias-log-sticas-OSMR-y-geod-sica-
 Este repositorio compila una suite de herramientas y scripts en Python desarrollados para la resolución de problemas complejos de logística, ruteo y optimización de cadenas de suministro. El núcleo del proyecto combina el cálculo de distancias geométricas tradicionales con el ruteo real sobre infraestructura vial mediante OpenStreetMap (OSM).
+
 🚀 Descripción General
 El objetivo principal de este ecosistema es transicionar de un análisis puramente geométrico (línea recta) a un análisis de fricción espacial real (redes viales). Esto permite calcular con precisión tiempos de traslado, matrices de origen-destino (OD) y optimizar rutas de distribución (como el problema de rutas de vehículos o CVRP).
 
@@ -45,15 +46,6 @@ Análisis de Productividad: Integración de matrices de distancia con tableros d
 
 🔧 Configuración e Instalación
 Para replicar estos proyectos localmente, asegúrate de instalar las dependencias geoespaciales correctas (se recomienda usar un entorno de conda para evitar conflictos con GDAL y Fiona):
-
-Bash
-# Clonar el repositorio
-git clone https://github.com/TU_USUARIO/logistics-osm-distance.git
-cd logistics-osm-distance
-
-# Instalar dependencias requeridas
-pip install -r requirements.txt
-Nota: Asegúrate de revisar el archivo requirements.txt donde se especifican las versiones estables de osmnx y geopandas.
 
 🧑‍💻 Autor
 Irving Gerardo Campos Gómez - Head of Technological Evolution / Logistics & IT Specialist
